@@ -1,0 +1,691 @@
+/*////////////QUADRADOS///////////////*/
+.container30 .row{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+/*//////////////////////hello9//////////////////*/
+.container30 .row #hello9 figure:hover figcaption{
+    top:-250px;
+ }
+ #hello9 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello9{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/pe.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello9 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.8%;
+      margin-top: 5%;
+  }
+  #hello9 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello9 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello9 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello9 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello9 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello9 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello8//////////////////*/
+.container30 .row #hello8 figure:hover figcaption{
+    top:-250px;
+ }
+ .container30 .row #helloLado:hover{
+    background:;
+    background-position-y:;
+    background-size: 655px 453px;
+ }
+ #hello8 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello8{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/banana.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello8 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.5%;
+      margin-top: 5%;
+  }
+  #hello8 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello8 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello8 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello8 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello8 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello8 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello7//////////////////*/
+.container30 .row #hello7 figure:hover figcaption{
+    top:-250px;
+ }
+ .container30 .row #helloLado:hover{
+    background:;
+    background-position-y:;
+    background-size: 655px 453px;
+ }
+ #hello7 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello7{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/img3.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello7 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.5%;
+      margin-top: 5%;
+  }
+  #hello7 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello7 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello7 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello7 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello7 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello7 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello6//////////////////*/
+.container30 .row #hello6 figure:hover figcaption{
+    top:-250px;
+ }
+ .container30 .row #helloLado:hover{
+    background:;
+    background-position-y:;
+    background-size: 655px 453px;
+ }
+ #hello6 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello6{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/bananapao.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello6 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.8%;
+  }
+  #hello6 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello6 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello6 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello6 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello6 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello6 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello5//////////////////*/
+.container30 .row #hello5 figure:hover figcaption{
+    top:-250px;
+ }
+ .container30 .row #helloLado:hover{
+    background:;
+    background-position-y:;
+    background-size: 655px 453px;
+ }
+ #hello5 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello5{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/Salta\ na\ areia\ .png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello5 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.5%;
+  }
+  #hello5 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello5 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello5 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello5 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello5 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello5 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello4//////////////////*/
+.container30 .row #hello4 figure:hover figcaption{
+    top:-250px;
+ }
+ .container30 .row #helloLado:hover{
+    background:;
+    background-position-y:;
+    background-size: 655px 453px;
+ }
+ #hello4 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello4{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/teto.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello4 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.5%;
+  }
+  #hello4 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello4 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello4 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello4 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello4 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello4 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello3//////////////////*/
+.container30 .row #hello3 figure:hover figcaption{
+    top:-250px;
+ }
+ .container30 .row #helloLado:hover{
+    background:;
+    background-position-y:;
+    background-size: 655px 453px;
+ }
+ #hello3 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello3{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/2mpc.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello3 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.8%;
+  }
+  #hello3 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello3 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello3 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello3 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello3 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello3 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello2//////////////////*/
+.container30 .row #hello2 figure:hover figcaption{
+    top:-250px;
+ }
+ .container30 .row #helloLado:hover{
+    background:;
+    background-position-y:;
+    background-size: 655px 453px;
+ }
+ #hello2 figure #fd{
+    background: white;
+    margin-top: 60%;
+ }
+ .container30 .row #hello2{
+     margin-top: 0%;
+     width:auto;
+     background-position: center;
+     height: 405.5px;
+     background: url(../../Public/IMG/slider4.png);
+     background-repeat: no-repeat;
+     background-size:cover;
+  }
+  #hello2 figure{
+      background: rgba(239, 239, 239, 0);
+      width: 107.5%;
+      height: 405px;
+      overflow:hidden;
+      float:left;
+      text-align: left;
+      font-size: 15px;
+      font-weight: bold;
+      display: block;
+      padding:0;
+      margin-left:-3.5%;
+  }
+  #hello2 figcaption h4{
+   margin-left: 5%;
+   font-weight: bold;
+   color: black;
+}
+#hello2 figcaption #pm{
+  margin-left: 5%;
+  font-size: 13px;
+  width: 93%;
+}
+#hello2 figcaption #pl{
+  margin-left: 5%;
+  color: #7E7E7E;
+}
+#hello2 figure #p{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+#hello2 figure #pa{
+  margin-left: 5%;
+  font-weight: bold;
+}
+  #hello2 figcaption{
+     position: relative;
+     top: 400px;
+     background: white;
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+  }
+/*//////////////////////hello1//////////////////*/
+.container30 .row #hello1 figure:hover figcaption{
+   top:-250px;
+}
+.container30 .row #helloLado:hover{
+   background:;
+   background-position-y:;
+   background-size: 655px 453px;
+}
+#hello1 figure #fd{
+   background: white;
+   margin-top: 60%;
+}
+.container30 .row #hello1{
+    margin-top: 0%;
+    width:auto;
+    height: 405.5px;
+    background-position: center;
+    background: url(../../Public/IMG/gurra.png);
+    background-repeat: no-repeat;
+ }
+ #hello1 figure{
+     background: rgba(239, 239, 239, 0);
+     width: 107.5%;
+     height: 405px;
+     overflow:hidden;
+     float:left;
+     text-align: left;
+     font-size: 15px;
+     font-weight: bold;
+     display: block;
+     padding:0;
+     margin-left:-3.5%;
+ }
+ #hello1 figcaption h4{
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+ }
+ #hello1 figcaption #pm{
+   margin-left: 5%;
+   font-size: 13px;
+   width: 93%;
+}
+ #hello1 figcaption #pl{
+   margin-left: 5%;
+   color: #7E7E7E;
+}
+ #hello1 figure #p{
+    margin-left: 5%;
+    color: #7E7E7E;
+ }
+ #hello1 figure #pa{
+   margin-left: 5%;
+   font-weight: bold;
+}
+ #hello1 figcaption{
+    position: relative;
+    top: 400px;
+    background: white;
+    -webkit-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+ }
+ /*////////////////QUADRADO////////////*/
+/*/////////CABECA/////////////////////*/
+.container30 .row #spaco{
+   background-color: white;
+   height: 50px;
+   margin-top: 0%;
+   width: 100%;
+}
+body{
+   background: url(../../Public/IMG/img2.png) fixed;
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size: 100% 550px;
+}
+#cabeca .btn:hover{
+   background-color: white;
+}
+#cabeca .btn{
+   border-radius: 15px;
+   width: 100px;  
+   height: 35px;
+   color: #C1A981;
+   background-color: rgba(0, 0, 0, 0);
+   border: solid 2px #C1A981;
+}
+#cabeca h1{
+   color: white;
+}
+#cabeca .row .col-md-12{
+   height: 300px;
+}
+#cabeca{
+   height: 380px;
+   backdrop-filter: brightness(50%);
+   width: 100%;
+   background-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 480px) {
+   body{
+      background-position-y: -190px;
+      background-size: 500px 550px;
+   }
+   #cabeca .row .col-md-12{
+      height: 130px;
+      /* border: solid 0px red; */
+   }
+   #cabeca{
+      height: 250px;
+      /* width: 100%; */
+      /* background-color: rgba(0, 0, 0, 0); */
+   }
+}
+/* @media (max-width: 480px) {
+   .container07 .row #t1 a {
+     margin-top: 0%;
+     margin-bottom: 3%;
+   }
+   
+   .container07 .row #t1, .container07 .row #t {
+     margin-top: 3%;
+     border-top: solid 0px white;
+   }
+ } */
+ @media (max-width: 480px) {
+   .container30 .row #hello1 figure,
+   .container30 .row #hello2 figure,
+   .container30 .row #hello3 figure,
+   .container30 .row #hello4 figure,
+   .container30 .row #hello5 figure,
+   .container30 .row #hello6 figure,
+   .container30 .row #hello7 figure,
+   .container30 .row #hello8 figure,
+   .container30 .row #hello9 figure{
+     width: 108.9%;
+     margin-left: -4.5%;
+   }
+   .container30 .row #hello1 figure #fd,
+   .container30 .row #hello2 figure #fd,
+   .container30 .row #hello3 figure #fd,
+   .container30 .row #hello4 figure #fd,
+   .container30 .row #hello5 figure #fd,
+   .container30 .row #hello6 figure #fd,
+   .container30 .row #hello7 figure #fd,
+   .container30 .row #hello8 figure #fd,
+   .container30 .row #hello9 figure #fd{
+     margin-bottom: 0%;
+     margin-top: 70%;
+   }
+ }
+.row{
+   width: 100%;
+   height: auto;
+   margin-left: 0%;
+}

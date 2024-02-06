@@ -1,0 +1,439 @@
+/*NOSSOS PARCEIROS*/
+
+#carouselExampleFade{
+    background-color:white;
+  }
+  .container10 .row{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+  }
+  #s2 h3{
+    margin-top: 1%;
+    margin-left: 0%;
+  }
+   #s2{
+    margin-top: 2%;
+  }
+  #s3 h6{
+    padding-top: 2%;
+  }
+   #s3{
+    margin-top: 2%;
+  }
+  .btn{
+    border: solid 1px #C1AA81;
+    border-radius: 30px;
+    width: 90px;
+    font-size: 12px;
+    color: #C1AA81;
+    background-color: rgba(255, 255, 255, 0);
+  }
+  #cc{
+    margin-top: 0.5%;
+    height: 40px;
+  }
+  .carousel-control-next h4, .carousel-control-prev h4{
+    color: #C1AA81;
+  }
+  .carousel-control-next, .carousel-control-prev{
+    border: solid 2px #C1AA81;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+  }
+  #s4 img{
+    width: 100%;
+    height: 105px;
+  }
+
+/*////////////////LEGENDA/////////////*/
+.container30 .row{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+/*/////////hello/////////1///*/
+#hello1{
+    background: url(../../Public/IMG/img4.png);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+#hello2{
+    background: url(../../Public/IMG/lampada.png);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+#hello3{
+    background: url(../../Public/IMG/mp.png);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+/*/////////////2///////////////*/
+#hello4{
+    background: url(../../Public/IMG/pretoleo.png);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+#hello5{
+    background: url(../../Public/IMG/cadeira.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#hello6{
+    background: url(../../Public/IMG/mp.png);    
+}
+/*///////////////3/////////////*/
+#hello7{
+    background: url(../../Public/IMG/img3.png);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+#hello8{
+    background: url(../../Public/IMG/slider2.png);  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;  
+}
+#hello9{
+    background: url(../../Public/IMG/2mpc.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+/*//////////////4//////////////*/
+#hello10{
+    background: url(../../Public/IMG/maefilho.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;    
+}
+#hello11{
+    background: url(../../Public/IMG/mp.png);    
+}
+#hello12{
+    background: url(../../Public/IMG/mp.png);    
+}
+/*////////////5///////////////////*/
+#hello13{
+    background: url(../../Public/IMG/nerd.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+#hello14{
+    background: url(../../Public/IMG/mp.png);    
+}
+#hello15{
+    background: url(../../Public/IMG/mp.png);    
+}
+/*//////////6///////////////////*/
+#hello16{
+    background: url(../../Public/IMG/mf.png);   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover; 
+}
+#hello17{
+    background: url(../../Public/IMG/amazon.png); 
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;   
+}
+#hello18{
+    background: url(../../Public/IMG/mp.png);    
+}
+
+.container30 .row .col-md-4{ 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width:100%;
+ }
+ .container30 .row .col-md-4 figure{
+     background: rgba(0, 0, 0, 0.6);
+     width: 107.3%;
+     height: 400px;
+     overflow:hidden;
+     float:left;
+     text-align: left;
+     font-size: 15px;
+     font-weight: bold;
+     margin-left: -3.7%;
+     margin-top: 0%;
+ }
+ .container30 .row .col-md-4 figcaption a{
+    margin-top: 5%;
+    color: #C1A981;
+    border: solid 1px #C1A981;
+    margin-left: 12%;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0);
+ }
+ .container30 .row .col-md-4 figcaption h3{
+    padding: 5%;
+    margin-left: 10%;
+    color: white;
+    width: 300px;
+ }
+ .container30 .row .col-md-4 figcaption p{
+    padding: 2%;
+    color: white;
+    margin-left: 10%;
+ }
+ .container30 .row .col-md-4 figcaption{
+     position: relative;
+     top: 400px;
+     background: rgb(100, 100, 100);
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+ }
+ .container30 .row .col-md-4 figure #p{
+    margin-left: 10%;
+    color: white;
+ }
+ .container30 .row .col-md-4 figure #h2{
+    width: 300px;
+    margin-left: 10%;
+    color: white;
+    margin-top: 60%;
+ }
+.container30 .row #hello3 figure #h2 {
+    margin-top: 51%;
+  }
+  .container30 .row .col-md-4 figure:hover figcaption{
+    top: -399px;
+ }
+@media (max-width: 480px) {
+    .container30 .row #hello3 figure:hover figcaption{
+       top: -399px;
+    }
+    .container30 .row #hello3 figure #h2 {
+      margin-top: 57%;
+    }
+    
+    .container30 .row .col-md-4 figure #h2 {
+      margin-top: 69%;
+    }
+    .container30 .row #hello3 figure a {
+      margin-top: 0%;
+    }
+    .container30 .row #hello1 figure,
+    .container30 .row #hello4 figure,
+    .container30 .row #hello7 figure,
+    .container30 .row #hello10 figure,
+    .container30 .row #hello13 figure,
+    .container30 .row #hello16 figure{
+    background: rgba(22, 13, 13, 0.6);
+    width: 109%;
+    margin-left: -4.6%;
+
+  }
+  .container30 .row #hello2,
+  .container30 .row #hello5,
+  .container30 .row #hello8,
+  .container30 .row #hello11,
+  .container30 .row #hello14,
+  .container30 .row #hello17 {
+    margin-top: -2%;
+    
+
+  }
+  .container30 .row #hello2 figure,
+  .container30 .row #hello5 figure,
+  .container30 .row #hello8 figure,
+  .container30 .row #hello11 figure,
+  .container30 .row #hello14 figure,
+  .container30 .row #hello17 figure{
+    background: rgba(22, 13, 13, 0.6);
+    width: 108.9%;
+    margin-left: -4.5%;
+  }
+  .container30 .row #hello3,
+  .container30 .row #hello6,
+  .container30 .row #hello9,
+  .container30 .row #hello12,
+  .container30 .row #hello15,
+  .container30 .row #hello18 {
+    margin-top: -2%;
+  }
+  .container30 .row #hello3 figure,
+  .container30 .row #hello6 figure,
+  .container30 .row #hello9 figure,
+  .container30 .row #hello12 figure,
+  .container30 .row #hello15 figure,
+  .container30 .row #hello18 figure{
+    background: rgba(22, 13, 13, 0.6);
+    width: 109.5%;
+    margin-left: -5.2%;
+  }
+  }
+/*////////////////LEGENDA/////////////*/
+/*///////////////////PARTE2/////////////////////////*/
+.container30{
+    padding: 0;
+    height: auto;
+    background-color: black;
+}
+.container30 .row{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+/*///////LEGENDA///////////*/
+.container30 .row #seROW1 figcaption #pt{
+    margin-top: 2%;
+    width: 80%;
+    color: white;
+    margin-left: 15%;
+}
+.container30 .row .col-md-4 figcaption .btn:hover{
+    background-color: white;
+}
+.container30 .row #seROW1 figcaption a{
+    margin-top: 33%;
+    border-radius: 15px;
+    color: #C1A981;
+    background-color: #c1aa8100;
+    border: solid 1px #C1A981;
+    margin-left: 15%;
+}
+.container30 .row #seROW1 figcaption #pp{
+    margin-top: 4%;
+    width: 80%;
+    margin-left: 15%;
+}
+.container30 .row #seROW1 figcaption{
+    border: solid 2px yellow;
+    height: 300px;
+    margin-top: -68%;
+    margin-left: -5%;
+    position: absolute;
+    width: 447px;
+    background-color: rgb(70, 70, 70);
+    opacity: 0;
+}
+/*///////QUATRADOS////////*/
+.container30 .row #seROW1 div{
+    background: url(../../Public/IMG/img4.png);
+    height: 298px;
+    filter: brightness(30%);
+    width: 109%;
+    margin-left: -5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px yellow;
+}
+.container30 .row #seROW2 div{
+    background: url(../../Public/IMG/lampada.png);
+    height: 300px;
+    filter: brightness(30%);
+    width: 109%;
+    margin-left: -5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px yellow;
+}
+.container30 .row #seROW3 div{
+    background: url(../../Public/IMG/mp.png);
+    height: 300px;
+    filter: brightness(30%);
+    width: 109%;
+    margin-left: -5%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: solid 2px yellow;
+}
+/*///////QUATRADOS////////*/
+.container30 .row #seROW1{
+    width: 100%;
+}
+.container30 .row #seROW1 h1{
+    color: white;
+    margin-top: -35%;
+    position: absolute;
+}
+.container30 .row #seROW1 p{
+    color: white;
+    margin-top: -8%;
+    position: absolute;
+}
+.container30 .row #seROW2 h1{
+    color: white;
+    margin-top: -35%;
+    position: absolute;
+}
+.container30 .row #seROW2 p{
+    color: white;
+    margin-top: -8%;
+    position: absolute;
+}
+.container30 .row #seROW3 h1{
+    color: white;
+    margin-top: -35%;
+    position: absolute;
+}
+.container30 .row #seROW3 p{
+    color: white;
+    margin-top: -8%;
+    position: absolute;
+}
+/*//////////////////////CABECA/////////////////////*/
+body{
+    background: url(../../Public/IMG/img2.png) fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 550px;
+    overflow-x: hidden;
+}
+#cabeca .btn:hover{
+    background-color: white;
+}
+#cabeca .btn{
+    border-radius: 15px;
+    width: 100px;  
+    height: 35px;
+    color: #C1A981;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px #C1A981;
+}
+#cabeca h1{
+    color: white;
+}
+#cabeca .row .col-md-12{
+    height: 300px;
+}
+#cabeca{
+    height: 380px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 480px) {
+    body{
+       background-position-y: -100px;
+       background-size: 500px 550px;
+    }
+    #cabeca .row .col-md-12{
+       height: 80px;
+       border: solid 0px red;
+    }
+    #cabeca{
+       height: 250px;
+       /* width: 100%; */
+       /* background-color: rgba(0, 0, 0, 0); */
+    }
+ }
+.row{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}

@@ -1,0 +1,148 @@
+/* Google Fonts - Poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* body {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #efefef;
+} */
+#b2c{
+  margin-left: 15%;
+  /* border: solid 2px green; */
+ }
+ .container011 div{
+  /* border: solid 2px blue; */
+ }
+.container011 {
+  /* max-width: 1120px; */
+  width: 100%;
+  padding: 40px 0;
+  background-color: white;
+  border: solid 2px red;
+}
+@media (max-width: 480px){
+  .container011{
+    /* margin-top: -100%; */
+  }
+}
+
+.slide-container {
+  margin: 0 30px;
+}
+
+.container011 .row .col-md-2, .container011 .row .col-md-10 {
+  /* border-top: solid 1px blue; */
+}
+@media (max-width: 480px) {
+  .container011 .row .col-md-2{
+    border-top: solid 0px white;
+  }
+}
+.card .image-box img {
+  width: 70px;
+  height: 70px;
+  margin-left: 6%;
+}
+/* .container011 .row{
+  border: solid 2px blue;
+  background-color: #000;
+
+} */
+.container011 .row .col-md-2 a h6{
+  font-size: 12px;
+  display: block;
+  /* margin-bottom: auto; */
+  margin-top: 7%;
+  /* justify-items: ; */
+  text-align: center;
+}
+.container011 .row .col-md-2 a {
+  border-radius: 50px;
+  height: 40px;
+  margin-top: 7%;
+  margin-left: 45%;
+  width: 100px;
+}
+@media (max-width: 480px) {
+  .container011 .row .col-md-2 a{
+    margin-left: 0%;
+    margin-top: 0%;
+  }
+  
+}
+
+.container011 .row .col-md-2 {
+  /* border: solid 2px red; */
+  margin-bottom: 3%;
+}
+
+.container011 .row .col-md-2 a:hover h6 {
+  display: none;
+  color: black;
+}
+
+.container011 .row .col-md-2 a:hover:after {
+  content: " Ver Mais";
+  /* text-align: center; */
+  font-size: 12px;
+  /* margin-top: 10%; */
+}
+
+.card .profile-details {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  padding: 15px;
+}
+
+.profile-details .name {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.profile-details .job {
+  font-size: 12px;
+  font-weight: 500;
+  color: #4d4d4d;
+}
+
+.swiper-navBtn {
+  color: #000;
+  height: 30px;
+  width: 30px;
+  margin-top: 5%;
+  border: solid 2px yellow;
+  /* background: #fff; */
+  border-radius: 50%;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after {
+  font-size: 18px;
+}
+
+.swiper-pagination-bullet {
+  background-color: #000;
+}
+
+.container011 .row {
+  width: 100%;
+  height: auto;
+  margin-left: 0%;
+}
+
+@media (max-width: 480px) {
+  .swiper-navBtn {
+    margin-top: 2%;
+  }
+
+}

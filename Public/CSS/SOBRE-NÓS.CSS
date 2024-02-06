@@ -1,0 +1,447 @@
+/*////////////////Slider////////////////////////*/
+.container20 .row #vacoa a:hover{
+   background-color: white;
+}
+.container20 .row #vacoa a{
+   margin-top: 12%;
+   border-radius: 30px;
+   border: solid 1px #C1A981;
+   color: #C1A981;
+   background-color: #c1aa8100;
+   width: 110px;
+}
+/* ...........................IMG........................... */
+
+.container20 #d10 .col-md-10, .container20 #d10 .col-md-12{
+   padding-top: 5%;
+   margin-left: auto;
+   margin-right: auto;
+   display: inline-block;
+ }
+ 
+ .container20 #d10 img{
+   height: 64px;
+   margin-left: auto;
+   margin-right: auto;
+   display: inline-block;
+ }
+ 
+ .container20 #d10 #me{
+   background-color: white;
+   width: 850px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+  .container20 #d10 img{
+   margin-left: 2%;
+   margin-bottom: 2%;
+ }
+ 
+ .container20 #d10 #me1{
+   width: 1250px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+ }
+ 
+ @media (max-width: 480px){
+   .container20 #d10 #me, .container20 #d10 #me1{
+   width: 350px;
+ }
+ 
+ .container20 #d10 img{
+   height: 64px;
+   margin-left: auto;
+   margin-right: auto;
+   display: block;
+ }
+ }
+
+/* ...........................IMG........................... */
+
+@media (max-width: 480px) {
+   .container20 #out{
+      background-color: #cfc2b060 ;
+   }
+   .container20 .row #vacoa a{
+      margin-top: 0%;
+      margin-bottom: 5%;
+   }
+}
+.container20 .row #vacoa h1{
+   margin-top: 2%;
+}
+.container20 .row #vacoa, #vacob{
+   background-color: #dfd9cf;
+}
+.container09 .row #vacob{
+   height: 50px;
+}
+.container09 .row #vaco{
+    height: 400px;
+ }
+
+ .container09{
+    background-color: white;
+ }
+ .container09 #button a{
+    margin-top:5%;
+    border-radius: 35px;
+    height:40px;
+    color: #C1A981;
+    width: 40px;
+    border: solid 2px #C1A981;
+ }
+ @media (max-width: 480px) {
+   .container09 #button a{
+      margin-top:1%;
+   }
+}
+ /*/////////////////TODOS///////////////*/
+ #mainSlider .row #hello16{
+   margin-left: 0%;
+}
+#mainSlider .row #hello17, #hello18{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello16, #hello17, #hello18{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello13{
+   margin-left: 0%;
+}
+#mainSlider .row #hello14, #hello15{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello13, #hello14, #hello15{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello10{
+   margin-left: 0%;
+}
+#mainSlider .row #hello11, #hello12{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello10, #hello11, #hello12{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello7{
+   margin-left: 0%;
+}
+#mainSlider .row #hello8, #hello9{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello7, #hello8, #hello9{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello4{
+   margin-left: 0%;
+}
+#mainSlider .row #hello5, #hello6{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello4, #hello5, #hello6{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello1{
+   margin-left: 0.0%;
+}
+#mainSlider .row #hello2, #hello3{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello1, #hello2, #hello3{
+   display: inline-block;
+}
+/*/////////////////TODOS///////////////*/
+/*////////////////LEGENDA/////////////*/
+/*/////////hello/////////1///*/
+#hello1{
+   background: url(../../Public/IMG/img4.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+    
+}
+#hello2{
+   background: url(../../Public/IMG/lampada.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+#hello3{
+   background: url(../../Public/IMG/mp.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+/*/////////////2///////////////*/
+#hello4{
+   background: url(../../Public/IMG/pretoleo.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+}
+#hello5{
+   background: url(../../Public/IMG/cadeira.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+#hello6{
+   background: url(../../Public/IMG/mp.png);    
+}
+/*///////////////3/////////////*/
+#hello7{
+   background: url(../../Public/IMG/img3.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+#hello8{
+   background: url(../../Public/IMG/slider2.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+}
+#hello9{
+   background: url(../../Public/IMG/2mpc.png); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;   
+}
+/*//////////////4//////////////*/
+#hello10{
+   background: url(../../Public/IMG/maefilho.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;    
+}
+#hello11{
+   background: url(../../Public/IMG/mp.png);    
+}
+#hello12{
+   background: url(../../Public/IMG/mp.png);    
+}
+/*////////////5///////////////////*/
+#hello13{
+   background: url(../../Public/IMG/nerd.png); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;   
+}
+#hello14{
+   background: url(../../Public/IMG/mp.png);    
+}
+#hello15{
+   background: url(../../Public/IMG/mp.png);    
+}
+/*//////////6///////////////////*/
+#hello16{
+   background: url(../../Public/IMG/mf.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+#hello17{
+   background: url(../../Public/IMG/amazon.png); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;   
+}
+#hello18{
+   background: url(../../Public/IMG/mp.png);    
+}
+.container30 .row .col-md-4{ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   width:100%;
+}
+.container30 .row .col-md-4 figure{
+    background: rgba(0, 0, 0, 0.6);
+    width: 107.3%;
+    height: 400px;
+    overflow:hidden;
+    float:left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -3.7%;
+    margin-top: 0%;
+}
+.container30 .row .col-md-4 figcaption a{
+   margin-top: 5%;
+   color: #C1A981;
+   border: solid 1px #C1A981;
+   margin-left: 12%;
+   border-radius: 15px;
+   background-color: rgba(240, 248, 255, 0);
+}
+.container30 .row .col-md-4 figcaption h3{
+   padding: 5%;
+   margin-left: 10%;
+   color: white;
+   width: 300px;
+}
+.container30 .row .col-md-4 figcaption p{
+   padding: 2%;
+   color: white;
+   margin-left: 10%;
+}
+.container30 .row .col-md-4 figcaption{
+    position: relative;
+    top: 400px;
+    background: rgb(100, 100, 100);
+    -webkit-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+}
+.container30 .row .col-md-4 figure #p{
+   margin-left: 10%;
+   color: white;
+}
+.container30 .row .col-md-4 figure #h2{
+   width: 300px;
+   margin-left: 10%;
+   color: white;
+   margin-top: 60%;
+}
+.container30 .row #hello3 figure #h2 {
+   margin-top: 51%;
+ }
+.container30 .row .col-md-4 figure:hover figcaption{
+   top:-399px;
+}
+@media (max-width: 480px) {
+  .container30 .row #hello3 figure:hover figcaption{
+     top: -399px;
+  }
+  .container30 .row #hello3 figure #h2 {
+    margin-top: 57%;
+  }
+  
+  .container30 .row .col-md-4 figure #h2 {
+    margin-top: 69%;
+  }
+  .container30 .row #hello3 figure a {
+    margin-top: 0%;
+  }
+  .container30 .row #hello1 figure,
+  .container30 .row #hello4 figure,
+  .container30 .row #hello7 figure,
+  .container30 .row #hello10 figure,
+  .container30 .row #hello13 figure,
+  .container30 .row #hello16 figure{
+  background: rgba(22, 13, 13, 0.6);
+  width: 109%;
+  margin-left: -4.6%;
+}
+.container30 .row #hello2,
+.container30 .row #hello5,
+.container30 .row #hello8,
+.container30 .row #hello11,
+.container30 .row #hello14,
+.container30 .row #hello17 {
+  margin-top: -2%;
+}
+.container30 .row #hello2 figure,
+.container30 .row #hello5 figure,
+.container30 .row #hello8 figure,
+.container30 .row #hello11 figure,
+.container30 .row #hello14 figure,
+.container30 .row #hello17 figure{
+  background: rgba(22, 13, 13, 0.6);
+  width: 109.5%;
+  margin-left: -4.8%;
+}
+.container30 .row #hello3,
+.container30 .row #hello6,
+.container30 .row #hello9,
+.container30 .row #hello12,
+.container30 .row #hello15,
+.container30 .row #hello18 {
+  margin-top: -2%;
+}
+.container30 .row #hello3 figure,
+.container30 .row #hello6 figure,
+.container30 .row #hello9 figure,
+.container30 .row #hello12 figure,
+.container30 .row #hello15 figure,
+.container30 .row #hello18 figure{
+  background: rgba(22, 13, 13, 0.6);
+  width: 109.5%;
+  margin-left: -4.8%;
+}
+}
+/*<!--/////////lETRAS/////////////-->*/
+.container20 .row .col-md-4, .col-md-6{
+   margin-top: 2%;
+}
+/* .container20 .row img{
+   width: 100%;
+   height: 105px;
+} */
+.container20{
+   background-color: white;
+}
+@media (max-width: 480px) {
+  .container20 .row .col-md-4, .col-md-6{
+     margin-top: 10%;
+ }
+}
+/*//////////////////////CABECA/////////////////////*/
+body{
+   background: url(../../Public/IMG/cadeira.png);
+   background-repeat: no-repeat;
+   background-position: top;
+   background-size: 100% 550px;
+}
+#cabeca .btn:hover{
+  background-color: white;
+}
+#cabeca .btn{
+  border-radius: 15px;
+  width: 100px;  
+  height: 35px;
+  color: #C1A981;
+  background-color: rgba(0, 0, 0, 0);
+  border: solid 2px #C1A981;
+}
+#cabeca h1{
+  color: white;
+}
+#cabeca .row .col-md-12{
+  height: 300px;
+}
+#cabeca{
+   backdrop-filter: brightness(50%);
+  height: 380px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 480px) {
+  body{
+     background-position-y: -190px;
+     background-size: 500px 550px;
+  }
+  #cabeca .row .col-md-12{
+     height: 130px;
+   }
+  #cabeca{
+     height: 250px;
+  }
+}
+.row{
+   width: 100%;
+   height: auto;
+   margin-left: 0%;
+}

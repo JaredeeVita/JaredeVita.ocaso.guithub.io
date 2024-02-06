@@ -1,0 +1,326 @@
+/*//////////NOTICIAS RECENTES///////////////////////////////*/
+ /*////////////////Slider////////////////////////*/
+.container07 .row #t a {
+    margin-top: 10%;
+  }
+  
+  .container07 .row #t {
+    margin-top: 3%;
+    border-top: solid 1px #E5E5E5;
+  }
+  
+  .container07 {
+    background-color: white;
+  }
+  
+  /*//////////////////////hello3//////////////////*/
+  .container007 .row #hello3 figure:hover figcaption {
+    top: -250px;
+  }
+  
+  .container007 .row #hello3 figure #fd {
+    background: white;
+    margin-top: 60%;
+  }
+  
+  .container007 .row #hello3 {
+    margin-top: 0%;
+    margin-left: 0%;
+    width: auto;
+    background-position: center;
+    height: 405.5px;
+    background: url(../../Public/IMG/2mpc.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container007 .row #hello3 figure {
+    background: rgba(239, 239, 239, 0);
+    width: 107.5%;
+    height: 405px;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 0;
+    margin-left: -3.7%;
+  }
+  
+  .container007 .row #hello3 figcaption h4 {
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .container007 .row #hello3 figcaption #pm {
+    margin-left: 5%;
+    font-size: 13px;
+    width: 93%;
+  }
+  
+  .container007 .row #hello3 figcaption #pl {
+    margin-left: 5%;
+    color: #7E7E7E;
+  }
+  
+  .container007 .row #hello3 figure #p {
+    margin-left: 5%;
+    color: #7E7E7E;
+  }
+  
+  .container007 .row #hello3 figure #pa {
+    margin-left: 5%;
+    font-weight: bold;
+  }
+  
+  .container007 .row #hello3 figcaption {
+    position: relative;
+    top: 400px;
+    background: white;
+    -webkit-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+  }
+  
+  /*//////////////////////hello2//////////////////*/
+  .container007 .row #hello2 figure:hover figcaption {
+    top: -250px;
+  }
+  
+  .container007 .row #helloLado:hover {
+    background-size: 655px 453px;
+  }
+  
+  .container007 .row #hello2 figure #fd {
+    background: white;
+    margin-top: 60%;
+  }
+  
+  .container007 .row #hello2 {
+    margin-top: 0%;
+    width: auto;
+    background-position: center;
+    height: 405.5px;
+    background: url(../../Public/IMG/slider4.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  .container007 .row #hello2 figure {
+    background: rgba(239, 239, 239, 0);
+    width: 107.5%;
+    height: 405px;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 0;
+    margin-left: -3.5%;
+  }
+  
+  .container007 .row #hello2 figcaption h4 {
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .container007 .row #hello2 figcaption #pm {
+    margin-left: 5%;
+    font-size: 13px;
+    width: 93%;
+  }
+  
+  .container007 .row #hello2 figcaption #pl {
+    margin-left: 5%;
+    color: #7E7E7E;
+  }
+  
+  .container007 .row #hello2 figure #p {
+    margin-left: 5%;
+    color: #7E7E7E;
+  }
+  
+  .container007 .row #hello2 figure #pa {
+    margin-left: 5%;
+    font-weight: bold;
+  }
+  
+  .container007 .row #hello2 figcaption {
+    position: relative;
+    top: 400px;
+    background: white;
+    -webkit-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+  }
+  
+  /*//////////////////////hello1//////////////////*/
+  .container007 .row #hello1 figure:hover figcaption {
+    top: -250px;
+  }
+  
+  .container007 .row #helloLado:hover {
+    background-size: 655px 453px;
+  }
+  
+  .container007 .row #hello1 figure #fd {
+    background: white;
+    margin-top: 60%;
+  }
+  
+  .container007 .row #hello1 {
+    margin-top: 0%;
+    width: auto;
+    height: 405.5px;
+    background-position: center;
+    background: url(../../Public/IMG/gurra.png);
+    background-repeat: no-repeat;
+  }
+  
+  .container007 .row #hello1 figure {
+    background: rgba(239, 239, 239, 0);
+    width: 107.5%;
+    height: 405px;
+    overflow: hidden;
+    float: left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    display: block;
+    padding: 0;
+    margin-left: -3.5%;
+  }
+  
+  .container007 .row #hello1 figcaption h4 {
+    margin-left: 5%;
+    font-weight: bold;
+    color: black;
+  }
+  
+  .container007 .row #hello1 figcaption #pm {
+    margin-left: 5%;
+    font-size: 13px;
+    width: 93%;
+  }
+  
+  .container007 .row #hello1 figcaption #pl {
+    margin-left: 5%;
+    color: #7E7E7E;
+  }
+  
+  .container007 .row #hello1 figure #p {
+    margin-left: 5%;
+    color: #7E7E7E;
+  }
+  
+  .container007 .row #hello1 figure #pa {
+    margin-left: 5%;
+    font-weight: bold;
+  }
+  
+  .container007 .row #hello1 figcaption {
+    position: relative;
+    top: 400px;
+    background: white;
+    -webkit-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+  }
+  
+
+/* ^^^^^^^^^NOTICIAS RECENTES^^^^^^^^^^ */
+
+.container1vmz .row img{
+    width: 100%;
+}
+
+.container1R .row h5 {
+    font-weight: bolder;
+}
+
+.container1vmz {
+    background-color: white;
+}
+
+/*//////////////////////CABECA/////////////////////*/
+body {
+    background: url(../../Public/IMG/gurra.png) fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-position-y: -250px;
+    background-size: 100% 150%;
+}
+
+#cabeca .btn:hover {
+    background-color: white;
+}
+
+#cabeca .row .col-md-11 div{
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cabeca .row .col-md-11{
+    height: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+#cabeca .col-md-11 svg:hover{
+    height: 10px;
+    color: black;
+    margin-top: -10%;
+}
+#cabeca .col-md-11 svg{
+    margin-left: auto;
+    margin-right: auto;
+    display: inline;
+    height: 20px;
+    color: white;
+}
+
+#cabeca .btn {
+    border-radius: 15px;
+    width: 100px;
+    height: 35px;
+    color: #C1A981;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px #C1A981;
+}
+
+#cabeca h1, #cabeca p{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#cabeca .row .col-md-12 h1 {
+    margin-top: 17%;
+}
+
+#cabeca .row .col-md-12 {
+    height: 540px;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#cabeca {
+    height: 597px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+.row {
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}

@@ -1,0 +1,53 @@
+.container2R{
+    background-color: white;
+}
+/*//////////////////////CABECA/////////////////////*/
+body{
+    background: url(../../Public/IMG/porta.png) fixed;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 550px;
+}
+#cabeca .btn:hover{
+    background-color: white;
+}
+#cabeca .btn{
+    border-radius: 15px;
+    width: 100px;  
+    height: 35px;
+    color: #C1A981;
+    background-color: rgba(0, 0, 0, 0);
+    border: solid 2px #C1A981;
+}
+#cabeca h1{
+    color: white;
+}
+#cabeca .row .col-md-12{
+    height: 300px;
+}
+#cabeca{
+    height: 380px;
+    backdrop-filter: brightness(50%);
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0);
+}
+@media (max-width: 480px) {
+    body{
+       background-position-y: -10px;
+       background-size: 700px 550px;
+    }
+    #cabeca .row .col-md-12{
+       height: 110px;
+       /* border: solid 0px red; */
+    }
+    #cabeca{
+       height: 280px;
+       /* width: 100%; */
+       /* background-color: rgba(0, 0, 0, 0); */
+    }
+ }
+.row{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}

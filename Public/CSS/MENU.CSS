@@ -1,0 +1,52 @@
+
+@font-face{
+  font-family:'fotos';
+  /* src: url("../../Config/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf"); */
+  src: url("../../Config/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf");
+}
+
+*{
+  /* background: black; */
+  font-family: "fotos";
+}
+
+#me .navbar-brand {
+  margin-left: 15%;
+}
+
+#me {
+  background-color: rgba(0, 0, 0, 0.637);
+}
+
+#lo {
+  height: 30px;
+}
+
+#go {
+  height: 30px;
+  margin-left: -3%;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+#me a:hover {
+  color: #FCBD30;
+}
+
+#me #lol{
+  margin-left: 7%;
+  width: 100px;
+}
+
+#me #lol:hover #lo{
+  width: 0px;
+}
+
+#lo{
+width: 70%;
+
+transition-property: width;
+transition-duration: 0.7s;
+}
