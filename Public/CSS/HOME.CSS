@@ -22,7 +22,7 @@
 }
 
 #sila4 {
-  background: url(../../Public/IMG/slider4.png);
+  background: url(../IMG/slider4.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -51,7 +51,7 @@
 }
 
 #sila3 {
-  background: url(../../Public/IMG/slider3.png);
+  background: url(../IMG/slider3.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -80,7 +80,7 @@
 }
 
 #sila2 {
-  background: url(../../Public/IMG/slider2.png);
+  background: url(../IMG/slider2.png);
   background-repeat: no-repeat;
   background-size: cover;
   height: 600px;
@@ -132,7 +132,7 @@
 }
 
 #sila1 {
-  background: url(../../Public/IMG/img1.png);
+  background: url(../IMG/img1.png);
   background-repeat: no-repeat;
   /* border: solid 2px red; */
   background-size: cover;
@@ -220,7 +220,7 @@
 }
 
 .container00008 .row {
-  background: url(../../Public/IMG/pe.png);
+  background: url(../IMG/pe.png);
   background-repeat: no-repeat;
   background-position: top;
   background-position-y: -400px;
@@ -249,7 +249,7 @@
 @media (max-width: 480px) {
 
   .container00008 .row {
-    background: url(../../Public/IMG/pe.png);
+    background: url(../IMG/pe.png);
     background-repeat: no-repeat;
     background-position: top;
     background-position-y: 0px;
@@ -436,7 +436,7 @@ margin-top: 1%;
   width: auto;
   background-position: center;
   height: 405.5px;
-  background: url(../../Public/IMG/2mpc.png);
+  background: url(../IMG/2mpc.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -511,7 +511,7 @@ margin-top: 1%;
   width: auto;
   background-position: center;
   height: 405.5px;
-  background: url(../../Public/IMG/slider4.png);
+  background: url(../IMG/slider4.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -586,7 +586,7 @@ margin-top: 1%;
   width: auto;
   height: 405.5px;
   background-position: center;
-  background: url(../../Public/IMG/gurra.png);
+  background: url(../IMG/gurra.png);
   background-repeat: no-repeat;
 }
 
@@ -827,21 +827,21 @@ margin-top: 1%;
 
 /*/////////hello/////////1///*/
 #hello1 {
-  background: url(../../Public/IMG/img4.png);
+  background: url(../IMG/img4.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello2 {
-  background: url(../../Public/IMG/lampada.png);
+  background: url(../IMG/lampada.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello3 {
-  background: url(../../Public/IMG/mp.png);
+  background: url(../IMG/mp.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -849,40 +849,40 @@ margin-top: 1%;
 
 /*/////////////2///////////////*/
 #hello4 {
-  background: url(../../Public/IMG/pretoleo.png);
+  background: url(../IMG/pretoleo.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello5 {
-  background: url(../../Public/IMG/cadeira.png);
+  background: url(../IMG/cadeira.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello6 {
-  background: url(../../Public/IMG/mp.png);
+  background: url(../IMG/mp.png);
 }
 
 /*///////////////3/////////////*/
 #hello7 {
-  background: url(../../Public/IMG/img3.png);
+  background: url(../IMG/img3.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello8 {
-  background: url(../../Public/IMG/slider2.png);
+  background: url(../IMG/slider2.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello9 {
-  background: url(../../Public/IMG/2mpc.png);
+  background: url(../IMG/2mpc.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -890,53 +890,53 @@ margin-top: 1%;
 
 /*//////////////4//////////////*/
 #hello10 {
-  background: url(../../Public/IMG/maefilho.png);
+  background: url(../IMG/maefilho.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello11 {
-  background: url(../../Public/IMG/mp.png);
+  background: url(../IMG/mp.png);
 }
 
 #hello12 {
-  background: url(../../Public/IMG/mp.png);
+  background: url(../IMG/mp.png);
 }
 
 /*////////////5///////////////////*/
 #hello13 {
-  background: url(../../Public/IMG/nerd.png);
+  background: url(../IMG/nerd.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello14 {
-  background: url(../../Public/IMG/mp.png);
+  background: url(../IMG/mp.png);
 }
 
 #hello15 {
-  background: url(../../Public/IMG/mp.png);
+  background: url(../IMG/mp.png);
 }
 
 /*//////////6///////////////////*/
 #hello16 {
-  background: url(../../Public/IMG/mf.png);
+  background: url(../IMG/mf.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello17 {
-  background: url(../../Public/IMG/amazon.png);
+  background: url(../IMG/amazon.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
 }
 
 #hello18 {
-  background: url(../../Public/IMG/mp.png);
+  background: url(../IMG/mp.png);
 }
 
 .container006 .row .col-md-4 {
@@ -1103,7 +1103,7 @@ margin-top: 1%;
 }
 
 .container05 {
-  background: url(../../Public/IMG/slider4.png);
+  background: url(../IMG/slider4.png);
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: brightness(50%);
@@ -1210,7 +1210,7 @@ margin-top: 1%;
 }
 
 .container03 {
-  background: url(../../Public/IMG/img4.png);
+  background: url(../IMG/img4.png);
   background-repeat: no-repeat;
   background-size: cover;
   backdrop-filter: brightness(50%);
@@ -1316,7 +1316,7 @@ margin-top: 1%;
 }
 
 body {
-  background: url(../../Public/IMG/313486758_654199099629239_6001347575433713227_n.png)fixed;
+  background: url(../IMG/313486758_654199099629239_6001347575433713227_n.png)fixed;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;

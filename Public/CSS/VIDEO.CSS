@@ -29,7 +29,7 @@
     width: auto;
     background-position: center;
     height: 405.5px;
-    background: url(../../Public/IMG/2mpc.png);
+    background: url(../IMG/2mpc.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -104,7 +104,7 @@
     width: auto;
     background-position: center;
     height: 405.5px;
-    background: url(../../Public/IMG/slider4.png);
+    background: url(../IMG/slider4.png);
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -179,7 +179,7 @@
     width: auto;
     height: 405.5px;
     background-position: center;
-    background: url(../../Public/IMG/gurra.png);
+    background: url(../IMG/gurra.png);
     background-repeat: no-repeat;
   }
   
@@ -251,7 +251,7 @@
 
 /*//////////////////////CABECA/////////////////////*/
 body {
-    background: url(../../Public/IMG/gurra.png) fixed;
+    background: url(../IMG/gurra.png) fixed;
     background-repeat: no-repeat;
     background-position: top;
     background-position-y: -250px;

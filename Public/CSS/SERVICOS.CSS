@@ -55,99 +55,99 @@
 }
 /*/////////hello/////////1///*/
 #hello1{
-    background: url(../../Public/IMG/img4.png);  
+    background: url(../IMG/img4.png);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
 }
 #hello2{
-    background: url(../../Public/IMG/lampada.png);   
+    background: url(../IMG/lampada.png);   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
 }
 #hello3{
-    background: url(../../Public/IMG/mp.png);   
+    background: url(../IMG/mp.png);   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
 }
 /*/////////////2///////////////*/
 #hello4{
-    background: url(../../Public/IMG/pretoleo.png);  
+    background: url(../IMG/pretoleo.png);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
 }
 #hello5{
-    background: url(../../Public/IMG/cadeira.png);
+    background: url(../IMG/cadeira.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #hello6{
-    background: url(../../Public/IMG/mp.png);    
+    background: url(../IMG/mp.png);    
 }
 /*///////////////3/////////////*/
 #hello7{
-    background: url(../../Public/IMG/img3.png);   
+    background: url(../IMG/img3.png);   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 #hello8{
-    background: url(../../Public/IMG/slider2.png);  
+    background: url(../IMG/slider2.png);  
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;  
 }
 #hello9{
-    background: url(../../Public/IMG/2mpc.png); 
+    background: url(../IMG/2mpc.png); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
 }
 /*//////////////4//////////////*/
 #hello10{
-    background: url(../../Public/IMG/maefilho.png);
+    background: url(../IMG/maefilho.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;    
 }
 #hello11{
-    background: url(../../Public/IMG/mp.png);    
+    background: url(../IMG/mp.png);    
 }
 #hello12{
-    background: url(../../Public/IMG/mp.png);    
+    background: url(../IMG/mp.png);    
 }
 /*////////////5///////////////////*/
 #hello13{
-    background: url(../../Public/IMG/nerd.png); 
+    background: url(../IMG/nerd.png); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
 }
 #hello14{
-    background: url(../../Public/IMG/mp.png);    
+    background: url(../IMG/mp.png);    
 }
 #hello15{
-    background: url(../../Public/IMG/mp.png);    
+    background: url(../IMG/mp.png);    
 }
 /*//////////6///////////////////*/
 #hello16{
-    background: url(../../Public/IMG/mf.png);   
+    background: url(../IMG/mf.png);   
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover; 
 }
 #hello17{
-    background: url(../../Public/IMG/amazon.png); 
+    background: url(../IMG/amazon.png); 
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;   
 }
 #hello18{
-    background: url(../../Public/IMG/mp.png);    
+    background: url(../IMG/mp.png);    
 }
 
 .container30 .row .col-md-4{ 
@@ -324,7 +324,7 @@
 }
 /*///////QUATRADOS////////*/
 .container30 .row #seROW1 div{
-    background: url(../../Public/IMG/img4.png);
+    background: url(../IMG/img4.png);
     height: 298px;
     filter: brightness(30%);
     width: 109%;
@@ -334,7 +334,7 @@
     border: solid 2px yellow;
 }
 .container30 .row #seROW2 div{
-    background: url(../../Public/IMG/lampada.png);
+    background: url(../IMG/lampada.png);
     height: 300px;
     filter: brightness(30%);
     width: 109%;
@@ -344,7 +344,7 @@
     border: solid 2px yellow;
 }
 .container30 .row #seROW3 div{
-    background: url(../../Public/IMG/mp.png);
+    background: url(../IMG/mp.png);
     height: 300px;
     filter: brightness(30%);
     width: 109%;
@@ -389,7 +389,7 @@
 }
 /*//////////////////////CABECA/////////////////////*/
 body{
-    background: url(../../Public/IMG/img2.png) fixed;
+    background: url(../IMG/img2.png) fixed;
     background-repeat: no-repeat;
     background-position: top;
     background-size: 100% 550px;

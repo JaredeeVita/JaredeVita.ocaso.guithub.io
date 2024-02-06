@@ -1,0 +1,1810 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>OCASO-HOME</title>
+
+  <link rel="stylesheet" href="Config/bootstrap.min.css">
+  <script src="../../../jquery.slim.min.js"></script>
+  <script src="../../../bootstrap.bundle.min.js"></script>
+  <script src="Config/jquery-3.4.1.min.js"></script>
+  <script src="Config/popper.min.js"></script>
+
+
+  <link rel="stylesheet" href="Public/CSS/TRABALHACONNOSCO.CSS">
+  <link rel="stylesheet" href="Public/CSS/FALECONNOSCO.CSS">
+  <link rel="stylesheet" href="Public/CSS/HOME.CSS">
+  <link rel="stylesheet" href="Public/CSS/MENU.CSS">
+  <link rel="stylesheet" href="Public/CSS/PARCEIRO.CSS">
+  <link rel="stylesheet" href="Public/CSS/RODAPE.CSS">
+  <script src="Public/JS/TEXTB.js"></script>
+  <!-- <link rel="stylesheet" href="Public/CSS/style.css"> -->
+  <style>
+    #setas {
+      position: absolute;
+    }
+
+    header div .carousel-control-prev {
+      margin-left: 97.8%;
+      position: fixed;
+      border: solid 2px #C1A981;
+      margin-top: 35%;
+    }
+
+    @media (max-width: 480px) {
+      header div .carousel-control-prev {
+        margin-left: 92%;
+        margin-top: 140%;
+      }
+    }
+
+    header div svg {
+      color: #C1A981;
+    }
+
+    header div .carousel-control-next {
+      position: fixed;
+      border: solid 2px #C1A981;
+      margin-top: 40%;
+    }
+
+    @media (max-width: 480px) {
+      header div .carousel-control-next {
+        margin-top: 151.5%;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+  <!--////////////MENU//////////-->
+  <header>
+    <div class="container" id="nav-container">
+      <!-- add essa class -->
+      <nav id="me" class="navbar navbar-expand-lg fixed-top navbar-dark">
+        <div id="lol">
+          <a class="navbar-brand" href="HOME.html">
+            <img id="lo" src="Public/IMG/lo1.png" alt="">
+            <img id="go" src="Public/IMG/go1.png" alt="">
+          </a>
+        </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-links"
+          aria-controls="navbar-links" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbar-links">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="HOME.html">HOME</a>
+            <a class="nav-item nav-link" href="SOBRE-NÓS.HTML">SOBRE NÓS</a>
+            <a class="nav-item nav-link" href="SERVICO.HTML">SERVIÇOS</a>
+            <a class="nav-item nav-link" href="NOTICIAS.HTML">NÓTICIAS</a>
+            <a class="nav-item nav-link" href="CONTACTO.HTML">CONTACTO</a>
+            <a class="nav-item nav-link">PT</a>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div>
+      <script type="text/javascript">
+        function scrollTopAnimated() { $("html, body").animate({ scrollTop: "0" }, 2000); } 
+      </script>
+
+      <script>
+        $(document).ready(function () {
+          $("#fim").click(function () {
+            $("html, body").animate({
+              scrollTop: $(
+                'html, body').get(0).scrollHeight
+            }, 2000);
+          });
+        });
+      </script>
+
+      <!-- <button id="boca" style="margin-top: 100%;" onclick="scrollTopAnimated()"> Voltar ao Topo</button> -->
+      <a onclick="scrollTopAnimated()" class="carousel-control-prev" role="button"
+        data-slide="prev">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 448 512">
+          <path d="M201.4 137.4c12.5-12.5 32.8-12.5 45.3 0l160 160c12.5 12.5 12.5 32.8 0 45.3s-32.8 12.5-45.3 
+                0L224 205.3 86.6 342.6c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3l160-160z" />
+        </svg>
+
+      </a>
+      <a id="fim" onclick="scrollDownAnimated()" class="carousel-control-next" role="button"
+        data-slide="next">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 448 512">
+          <path d="M201.4 374.6c12.5 12.5 32.8 12.5 45.3 0l160-160c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 
+                0L224 306.7 86.6 169.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3l160 160z" />
+        </svg>
+      </a>
+    </div>
+  </header>
+
+  <!-- ///////////slider////////-->
+  <div class="container-fluid ">
+    <div id="mainSlider" class="carousel slide row" data-ride="carousel">
+
+      <div class="carousel-inner container500" data-bs-interval="100">
+        <div id="cimoni" class="row">
+          <div class="col-md-6">
+            <a class="carousel-control-prev" href="#mainSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+          </div>
+
+          <div class="col-md-6">
+            <a class="carousel-control-next" href="#mainSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="col-md-10"></div>
+
+          <div class="col-md-10"></div>
+
+          <div id="mainSlider" class="col-md-2">
+            <ol class="carousel-indicators carousel-indicators-numbers justify-content-end" id="indicatorescima">
+              <li data-bs-target="#mainSlider" data-bs-slide-to="0" class="active bg-transparent">1</li>
+              <li data-bs-target="#mainSlider" data-bs-slide-to="1" class="bg-transparent">2</li>
+              <li data-bs-target="#mainSlider" data-bs-slide-to="2" class="bg-transparent">3</li>
+              <li data-bs-target="#mainSlider" data-bs-slide-to="3" class="bg-transparent">4</li>
+            </ol>
+          </div>
+
+        </div>
+        <div id="sila1" class="carousel-item active .row">
+          <div>
+            <h1>SOLUÇÃOES CORPORATIVAS</h1>
+            <p>
+              OCASO GRUPO Engenharia e Tecnolocia <br> é uma
+              empresa de direito Angolano, fundada em 2015.
+            </p>
+
+            <a href="#" class="btn">
+              <p>
+                Saber Mais
+              </p>
+            </a>
+
+          </div>
+        </div>
+        <div id="sila2" class="carousel-item row">
+          <div>
+            <h1>IDEIAS QUE TRANSFORMAM</h1>
+            <p>
+              OCASO GRUPO Engenharia e Tecnolocia <br> é uma
+              empresa de direito Angolano, fundada em 2015.
+            </p>
+
+            <a href="#" class="btn">
+              <p>
+                Saber Mais
+              </p>
+            </a>
+
+          </div>
+        </div>
+        <div id="sila3" class="carousel-item row">
+          <div>
+            <h1>PROJECTOS INVADORES</h1>
+            <p>
+              OCASO GRUPO Engenharia e Tecnolocia <br> é uma
+              empresa de direito Angolano, fundada em 2015.
+            </p>
+
+            <a href="#" class="btn">
+              <p>
+                Saber Mais
+              </p>
+            </a>
+
+          </div>
+        </div>
+        <div id="sila4" class="carousel-item row">
+          <div>
+            <h1>INTERGRAÇÃO E ANIMAÇÃO</h1>
+            <p>
+              OCASO GRUPO Engenharia e Tecnolocia <br> é uma
+              empresa de direito Angolano, fundada em 2015.
+            </p>
+
+            <a href="#" class="btn">
+              <p>
+                Saber Mais
+              </p>
+            </a>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--///////////PARTE2////// data-bs-interval="10000" ///-->
+  <div class="container02">
+    <div class="row">
+      <div class="col-md-4 col-sm-12 ">
+        <figure>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 640 512">
+            <path
+              d="M506.1 127.1c-17.97-20.17-61.46-61.65-122.7-71.1c-22.5-3.354-45.39 3.606-63.41 18.21C302 60.47 279.1 53.42 256.5 56.86C176.8 69.17 126.7 136.2 124.6 139.1c-7.844 10.69-5.531 25.72 5.125 33.57c4.281 3.157 9.281 4.657 14.19 4.657c7.406 0 14.69-3.375 19.38-9.782c.4062-.5626 40.19-53.91 100.5-63.23c7.457-.9611 14.98 .67 21.56 4.483L227.2 168.2C214.8 180.5 207.1 196.1 207.1 214.5c0 17.5 6.812 33.94 19.16 46.29C239.5 273.2 255.9 279.1 273.4 279.1s33.94-6.813 46.31-19.19l11.35-11.35l124.2 100.9c2.312 1.875 2.656 5.251 .5 7.97l-27.69 35.75c-1.844 2.25-5.25 2.594-7.156 1.063l-22.22-18.69l-26.19 27.75c-2.344 2.875-5.344 3.563-6.906 3.719c-1.656 .1562-4.562 .125-6.812-1.719l-32.41-27.66L310.7 392.3l-2.812 2.938c-5.844 7.157-14.09 11.66-23.28 12.6c-9.469 .8126-18.25-1.75-24.5-6.782L170.3 319.8H96V128.3L0 128.3v255.6l64 .0404c11.74 0 21.57-6.706 27.14-16.14h60.64l77.06 69.66C243.7 449.6 261.9 456 280.8 456c2.875 0 5.781-.125 8.656-.4376c13.62-1.406 26.41-6.063 37.47-13.5l.9062 .8126c12.03 9.876 27.28 14.41 42.69 12.78c13.19-1.375 25.28-7.032 33.91-15.35c21.09 8.188 46.09 2.344 61.25-16.47l27.69-35.75c18.47-22.82 14.97-56.48-7.844-75.01l-120.3-97.76l8.381-8.382c9.375-9.376 9.375-24.57 0-33.94c-9.375-9.376-24.56-9.376-33.94 0L285.8 226.8C279.2 233.5 267.7 233.5 261.1 226.8c-3.312-3.282-5.125-7.657-5.125-12.31c0-4.688 1.812-9.064 5.281-12.53l85.91-87.64c7.812-7.845 18.53-11.75 28.94-10.03c59.75 9.22 100.2 62.73 100.6 63.29c3.088 4.155 7.264 6.946 11.84 8.376H544v175.1c0 17.67 14.33 32.05 31.1 32.05L640 384V128.1L506.1 127.1zM48 352c-8.75 0-16-7.245-16-15.99c0-8.876 7.25-15.99 16-15.99S64 327.2 64 336.1C64 344.8 56.75 352 48 352zM592 352c-8.75 0-16-7.245-16-15.99c0-8.876 7.25-15.99 16-15.99s16 7.117 16 15.99C608 344.8 600.8 352 592 352z" />
+          </svg>
+          <h4>MISSÃO</h4>
+          <figcaption>
+            <p>
+              <br>
+            </p>
+            <h3>MISSÃO</h3>
+            <p>
+              Prover consultoria, soluções de tecnologia,
+              engenharia, arquitectura e urbanismo de forma a
+              atender à legislação e satisfazer as expectativas
+              dos clientes, investidores, colaboradores e da sociedade.
+            </p>
+            <a class="btn btn-primary" href="SOBRE-NÓS.HTML" role="button">
+              Ver Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-12 ">
+        <figure>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 576 512">
+            <path
+              d="M160 256C160 185.3 217.3 128 288 128C358.7 128 416 185.3 416 256C416 326.7 358.7 384 288 384C217.3 384 160 326.7 160 256zM288 336C332.2 336 368 300.2 368 256C368 211.8 332.2 176 288 176C287.3 176 286.7 176 285.1 176C287.3 181.1 288 186.5 288 192C288 227.3 259.3 256 224 256C218.5 256 213.1 255.3 208 253.1C208 254.7 208 255.3 208 255.1C208 300.2 243.8 336 288 336L288 336zM95.42 112.6C142.5 68.84 207.2 32 288 32C368.8 32 433.5 68.84 480.6 112.6C527.4 156 558.7 207.1 573.5 243.7C576.8 251.6 576.8 260.4 573.5 268.3C558.7 304 527.4 355.1 480.6 399.4C433.5 443.2 368.8 480 288 480C207.2 480 142.5 443.2 95.42 399.4C48.62 355.1 17.34 304 2.461 268.3C-.8205 260.4-.8205 251.6 2.461 243.7C17.34 207.1 48.62 156 95.42 112.6V112.6zM288 80C222.8 80 169.2 109.6 128.1 147.7C89.6 183.5 63.02 225.1 49.44 256C63.02 286 89.6 328.5 128.1 364.3C169.2 402.4 222.8 432 288 432C353.2 432 406.8 402.4 447.9 364.3C486.4 328.5 512.1 286 526.6 256C512.1 225.1 486.4 183.5 447.9 147.7C406.8 109.6 353.2 80 288 80V80z" />
+          </svg>
+          <h4>VISÃO</h4>
+          <figcaption>
+            <p>
+              <br>
+            </p>
+            <h3>VISÃO</h3>
+            <p>
+              Manter-se como referência nacional em soluções
+              de consultoria, tecnologia, engenharia, arquitectura
+              e urbanismo e ser a maior empresa de Engenharia
+              Consultiva de Angola.
+            </p>
+            <a class="btn btn-primary" href="SOBRE-NÓS.HTML" role="button">
+              Ver Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="col-md-4 col-sm-12 ">
+        <figure>
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 576 512">
+            <path
+              d="M184.1 38.2c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L39 113c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zm0 160c9.9 8.9 10.7 24 1.8 33.9l-72 80c-4.4 4.9-10.6 7.8-17.2 7.9s-12.9-2.4-17.6-7L39 273c-9.4-9.4-9.4-24.6 0-33.9s24.6-9.4 33.9 0l22.1 22.1 55.1-61.2c8.9-9.9 24-10.7 33.9-1.8zM256 96c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H288c-17.7 0-32-14.3-32-32zm0 160c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H288c-17.7 0-32-14.3-32-32zM192 416c0-17.7 14.3-32 32-32H512c17.7 0 32 14.3 32 32s-14.3 32-32 32H224c-17.7 0-32-14.3-32-32zM80 464c-26.5 0-48-21.5-48-48s21.5-48 48-48s48 21.5 48 48s-21.5 48-48 48z" />
+          </svg>
+          <h4>NOSSA ACTUAÇÃO</h4>
+          <figcaption>
+            <p>
+              <br>
+            </p>
+            <h3>NOSSA ACTUAÇÃO</h3>
+            <p>
+              A OCASO GROUP tem actuado ao longo dos anos
+              em grande parte do território angolano. Tem como
+              objectivo proporcionar soluções adequadas em cada
+              mercado e auxiliar nos processos de desenvolvimento
+              no país.
+            </p>
+            <a class="btn btn-primary" href="SOBRE-NÓS.HTML" role="button">
+              Ver Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!--///////////PARTE3/////////-->
+  <div class="container03">
+    <div class="row">
+      <div class="col-md-1 col-sm-1"></div>
+      <div class="col-md-11 col-sm-11 col-xs-12">
+        <h1>SOBRE NÓS</h1>
+        <p>
+          OCASO GRUPO Engenharia e Tecnolocia é uma empresa de direito Angolano,<br>
+          fundada em 2015. Composta por unidades de negócios, que têm como<br>
+          principal objectivo atender ás necessidades e a satisfação dos Clientes, através<br>
+          do aprimoramento das competências, na busca constante por invação e<br>
+          sustentablidade nas soluções de Engenharia..
+        </p>
+        <a class="btn btn-primary" role="button">
+          Ver Mais
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!--///////PARTE4/////////////-->
+  <div id="midianot" class="container-fluid ">
+    <div class="container600">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8" style="border-top: solid 2px rgb(146, 151, 146) ; margin-top: 3%">
+          <h1>PARCEIROS</h1>
+        </div>
+        <div class="col-md-2" style="border-top: solid 2px rgb(146, 151, 146) ; margin-top: 3%">
+          <a href="SOBRE-NÓS.HTML" class="btn">
+            <p>
+              Saber Mias
+            </p>
+          </a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <div id="mainSlider2" class="carousel slide row">
+
+      <div class="carousel-inner container5000">
+
+        <div id="sila11" class="carousel-item active">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/1.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/2.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/3.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/4.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/5.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/6.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/7.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/8.png"
+                alt="">
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+        <div id="sila21" class="carousel-item ">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/1.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/2.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/3.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/4.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/5.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/6.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/7.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/8.png"
+                alt="">
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+        <div id="sila31" class="carousel-item ">
+          <div class="row">
+            <div class="col-md-1"></div>
+            <div class="col-md-10">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/1.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/2.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/3.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/4.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/5.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/6.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/7.png"
+                alt="">
+              <img style=" margin-left: 3.7%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/8.png"
+                alt="">
+            </div>
+            <div class="col-md-1"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="container400" style=" height: 53px; width: 100%; ">
+        <div id="cimoni" class="row">
+          <div class="col-md-10"></div>
+          <div class="col-md-1">
+            <a class="carousel-control-prev" href="#mainSlider2" role="button" data-slide="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 384 512">
+                <path
+                  d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#mainSlider2" role="button" data-slide="next">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 384 512">
+                <path
+                  d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          <div class="col-md-1"></div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="midia" class="container-fluid ">
+    <div class="container600">
+      <div class="row">
+        <div class="col-md-1"></div>
+        <div class="col-md-8" style="border-top: solid 2px rgb(146, 151, 146) ; margin-top: 7%">
+          <h1>PARCEIROS</h1>
+        </div>
+        <div class="col-md-2">
+          <a href="SOBRE-NÓS.HTML" class="btn">
+            <p>
+              Saber Mias
+            </p>
+          </a>
+        </div>
+        <div class="col-md-1"></div>
+      </div>
+    </div>
+
+    <div id="mainSlider3" class="carousel slide row">
+
+      <div class=" container5000">
+
+        <div id="sila12" class="carousel-item active">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/1.png"
+              alt="">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/2.png"
+              alt="">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/3.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila22" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 3.7%; height: 40px; display: inline-block;" src="Public/IMG/_PARCEIROS/4.png"
+              alt="">
+            <img style=" margin-left: 3.7%; height: 40px; display: inline-block;" src="Public/IMG/_PARCEIROS/5.png"
+              alt="">
+            <img style=" margin-left: 3.7%; height: 40px; display: inline-block;" src="Public/IMG/_PARCEIROS/6.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila33" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 6%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/7.png"
+              alt="">
+            <img style=" margin-left: 6%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/8.png"
+              alt="">
+            <img style=" margin-left: 6%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/1.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila12" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/2.png"
+              alt="">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/3.png"
+              alt="">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/4.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila22" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 2%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/5.png"
+              alt="">
+            <img style=" margin-left: 2%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/6.png"
+              alt="">
+            <img style=" margin-left: 2%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/7.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila33" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 2%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/8.png"
+              alt="">
+            <img style=" margin-left: 2%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/1.png"
+              alt="">
+            <img style=" margin-left: 2%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/2.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila12" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 3.7%; height: 40px; display: inline-block;" src="Public/IMG/_PARCEIROS/3.png"
+              alt="">
+            <img style=" margin-left: 3.7%; height: 40px; display: inline-block;" src="Public/IMG/_PARCEIROS/4.png"
+              alt="">
+            <img style=" margin-left: 3.7%; height: 40px; display: inline-block;" src="Public/IMG/_PARCEIROS/5.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila22" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 4%; height: 60px; display: inline-block;" src="Public/IMG/_PARCEIROS/6.png"
+              alt="">
+            <img style=" margin-left: 4%; height: 60px; display: inline-block;" src="Public/IMG/_PARCEIROS/7.png"
+              alt="">
+            <img style=" margin-left: 4%; height: 60px; display: inline-block;" src="Public/IMG/_PARCEIROS/8.png"
+              alt="">
+          </div>
+        </div>
+        <div id="sila33" class="carousel-item ">
+          <div style=" width: 313.6px;  display: block; margin-left: auto; margin-right: auto;">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/1.png"
+              alt="">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/2.png"
+              alt="">
+            <img style=" margin-left: 3%; height: 50px; display: inline-block;" src="Public/IMG/_PARCEIROS/3.png"
+              alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="container400" style=" height: 53px; width: 100%; ">
+        <div id="cimoni" class="row">
+          <div class="col-md-1">
+            <a class="carousel-control-prev" href="#mainSlider3" role="button" data-slide="prev">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 384 512">
+                <path
+                  d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+              </svg>
+              <span class="sr-only">Previous</span>
+            </a>
+
+            <a class="carousel-control-next" href="#mainSlider3" role="button" data-slide="next">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 384 512">
+                <path
+                  d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+              </svg>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--/////////PARTE5///////////-->
+  <div class="container05">
+    <div class="row">
+      <div class="col-md-1 col-sm-1"></div>
+      <div class="col-md-11 col-sm-11 col-xs-12">
+        <h1>NOSSA POLÍTICA</h1>
+        <p>
+          A OCASO GROUP tem por compromisso ser uma empresa
+          sólida, dinâmica, <br> com boa imagem e reputação,
+          reconhecida no mercado e lucrativa. Para isso <br> tem
+          foco e comprometimento com o cliente.
+          <br>
+          <br>
+          As soluções
+          propostas devem ir de encontro às expectativas dos
+          Clientes e <br> Outras Partes Interessadas …
+        </p>
+        <a class="btn btn-primary" role="button">
+          Ver Mais
+        </a>
+      </div>
+    </div>
+  </div>
+  <!--/////////PARTE6///////////-->
+  <div class="container06">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div id="t" class="col-md-9">
+        <h1>NOSSOS SERVIÇOS</h1>
+      </div>
+      <div id="t1" class="col-md-1">
+        <a class="btn" href="SERVICO.HTML">
+          <p> Saber Mais</p>
+        </a>
+      </div>
+      <div class="col-md-1"></div>
+
+      <div class="col-md-1"></div>
+      <div class="col-md-10">
+        <p>
+          Reconecidos pela nossa forma ímpar de.. OCASO GROUP
+          tem por compromisso ser uma empresa sólida, dinâmica,
+        </p>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+
+  <div id="mainServe" class="container006 carousel slide carousel-fade">
+    <div class="row carousel-item active">
+      <div id="hello1" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS URBANISMO
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS URBANISMO</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" href="PROJECTOSURBANÍSTICOS.HTML" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello2" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE REDES ELÉCTICAS
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE REDES ELÉCTICAS</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello3" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            MARKENTIG, COMUNICAÇÃO E IMAGEM
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>MARKENTIG, COMUNICAÇÃO E IMAGEM</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+
+    <div class="row carousel-item">
+      <div id="hello4" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello5" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello6" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row carousel-item">
+      <div id="hello7" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello8" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello9" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row carousel-item">
+      <div id="hello10" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello11" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello12" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row carousel-item">
+      <div id="hello13" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello14" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello15" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+    <div class="row carousel-item">
+      <div id="hello16" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello17" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello18" class="col-md-4 col-sm-4 col-xs-6">
+        <figure>
+          <h2 id="h2">
+            PROJETOS DE ARQUITETURA
+          </h2>
+          <p id="p">
+            Lorem ipsum dolor sit amet, consectetuer
+          </p>
+          <figcaption>
+            <p>
+            </p>
+            <h3>PROJETOS DE ARQUITETURA</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam nonummy nibh euismod <br>
+              tincidunt ut laoreet dolore magna aliquam erat <br>
+              Lorem ipsum dolor sit amet, consectetuer <br>
+              adipiscing elit, sed diam
+            </p>
+            <a class="btn btn-primary" role="button">
+              Saber Mais
+            </a>
+            <p>
+              <br>
+              <br>
+              <br>
+            </p>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <div class="container09">
+    <div id="button" class="row">
+      <div id="vaco" class="col-md-4"></div>
+      <div id="vaco" class="col-md-4"></div>
+      <div id="vaco" class="col-md-4"></div>
+      <div class="col-md-10"></div>
+      <div class="col-md-1">
+        <a class="carousel-control-prev" href="#mainServe" role="button" data-slide="prev">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 384 512">
+            <path
+              d="M41.4 233.4c-12.5 12.5-12.5 32.8 0 45.3l192 192c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L109.3 256 278.6 86.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0l-192 192z" />
+          </svg>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#mainServe" role="button" data-slide="next">
+          <svg xmlns="http://www.w3.org/2000/svg" fill="currentcolor" viewBox="0 0 384 512">
+            <path
+              d="M342.6 233.4c12.5 12.5 12.5 32.8 0 45.3l-192 192c-12.5 12.5-32.8 12.5-45.3 0s-12.5-32.8 0-45.3L274.7 256 105.4 86.6c-12.5-12.5-12.5-32.8 0-45.3s32.8-12.5 45.3 0l192 192z" />
+          </svg>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div id="vc" class="col-md-1"></div>
+    </div>
+  </div>
+
+  <!--//////////PARTE7//////////-->
+  <div class="container07">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div id="t" class="col-md-9">
+        <h1>NOTÍCIAS</h1>
+      </div>
+      <div id="t1" class="col-md-1">
+        <a class="btn btn-primary" href="NOTICIAS.HTML" role="button">
+          <p> Saber Mais</p>
+        </a>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+
+  <div id="mainNot" class="container007 ">
+    <div class="row">
+      <div id="hello1" class="col-md-4 col-sm-4 col-xs-12">
+        <figure>
+          <div id="fd">
+            <p id="p">Ambiente</p>
+            <h4 id="pa">
+              O Meio Ambiente na floresta do Mayombe
+            </h4>
+            <p id="p">
+              28 Set 2022
+            </p>
+            <br>
+          </div>
+          <figcaption>
+            <p id="pl">Ambiente</p>
+            <h4>O Meio Ambiente na floresta do Mayombe</h4>
+            <p id="pm">
+              Alguma coisa sobre o Ambiente na floresta do Mayombe
+              Lorem ipsum dolor sit amet, consectetuer adipiscing
+              elit, sed diam nonummy nibh euismod
+            </p>
+            <p id="pl">
+              28 Set 2022
+            </p>
+            <br>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello2" class="col-md-4 col-sm-4 col-xs-12">
+        <figure>
+          <div id="fd">
+            <p id="p">Ambiente</p>
+            <h4 id="pa">
+              Qualquer matéria relativa ao Mundo dos Negócios
+            </h4>
+            <p id="p">
+              28 Set 2022
+            </p>
+            <br>
+          </div>
+          <figcaption>
+            <p id="pl">Ambiente</p>
+            <h4>Qualquer matéria relativa ao Mundo dos Negócios</h4>
+            <p id="pm">
+              Qualquer matéria relativa ao mundo dos negócios
+              ipsum dolor sit amet, consectetuer adipiscing elit,
+              sed diam nonummy nibh euismod
+            </p>
+            <p id="pl">
+              28 Set 2022
+            </p>
+            <br>
+          </figcaption>
+        </figure>
+      </div>
+
+      <div id="hello3" class="col-md-4 col-sm-4 col-xs-12">
+        <figure>
+          <div id="fd">
+            <p id="p">Ambiente</p>
+            <h4 id="pa">
+              Alguma coisa sobre o Turismo Sustentável
+            </h4>
+            <p id="p">
+              28 Set 2022
+            </p>
+            <br>
+          </div>
+          <figcaption>
+            <p id="pl">Ambiente</p>
+            <h4>Alguma coisa sobre o Turismo Sustentável</h4>
+            <p id="pm">
+              Alguma coisa sobre o Turismo Sustentável
+              orem ipsum dolor sit amet, consectetuer
+              adipiscing elit, sed diam nonummy nibh
+              euismod
+            </p>
+            <p id="pl">
+              28 Set 2022
+            </p>
+            <br>
+          </figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+
+  <!--///////PAERTE8////////////-->
+  <div class="container08">
+    <div class="row">
+      <div class="col-md-1"></div>
+      <div id="t" class="col-md-9">
+        <h1>FORMAÇÃO</h1>
+      </div>
+      <div id="t1" class="col-md-1">
+        <a class="btn btn-primary" href="NOTICIAS.HTML" role="button">
+          <p> Saber Mais</p>
+        </a>
+      </div>
+      <div class="col-md-1"></div>
+    </div>
+  </div>
+
+  <div class="container008">
+    <div class="row">
+      <div class="col-md-12">
+        <img height="100px" src="Public/IMG/_PARCEIROS/logo3d.png" alt="">
+        <h4 id="cor">CERTIFICAÇÃO</h4>
+        <h2>MASTER LEADERSHIP</h2>
+        <p>3 dias intensivos de aprendizagem das mais avancadas ferramentas e técnicas de <br>
+          lideranca e desenvolvimento pessoal que vão transformar os teus resultados, tanto na <br>
+          vida proficional como pessoal</p>
+        <h6 id="cor">3 Dias| 18, 19 e 20 Novembro| 9h ás 18h|Presencial <br>
+          Local: Hotel Internacional
+        </h6>
+        <h6>LUANDA</h6>
+        <h5 id="cor">Investimento</h5>
+      </div>
+    </div>
+  </div>
+
+  <div class="container0008">
+    <div id="um8" class="row">
+      <div id="bla" class="col-md-2"></div>
+      <div id="calemba2" class="col-md-2">
+        <h6>PACOTE PRATA</h6>
+        <h6 id="dor">AOA 0.00 KZS</h6>
+        <p>
+          Participação presencial na certificação Certificado Master Leadership Manual de 250 páginas com todo o
+          conteúdo, ferramentas e estratégias passo a passo, Teste perl comportamental individual Almoço durante os 3
+          dias da Certicação Acesso ao grupo Whatsapp das Certicações realizadas em Portugal e Angola
+        </p>
+        <a class="btn btn-primary" role="button">
+          Escolho Este
+        </a>
+      </div>
+      <div class="col-md-2">
+        <h6>PACOTE OURO</h6>
+        <h6 id="dor">AOA 0.00 KZS</h6>
+        <p>
+          Participação presencial na certificação Certificado Master Leadership Manual de 250 páginas com todo o
+          conteúdo, ferramentas e estratégias passo a passo, Teste perl comportamental individual Almoço durante os 3
+          dias da Certicação Acesso ao grupo Whatsapp das Certicações realizadas em Portugal e Angola
+        </p>
+        <a class="btn btn-primary" role="button">
+          Escolho Este
+        </a>
+      </div>
+      <div class="col-md-2">
+        <h6>PACOTE DIAMANTE</h6>
+        <h6 id="dor">AOA 0.00 KZS</h6>
+        <p>
+          Participação presencial na certificação Certificado Master Leadership Manual de 250 páginas com todo o
+          conteúdo, ferramentas e estratégias passo a passo, Teste perl comportamental individual Almoço durante os 3
+          dias da Certicação Acesso ao grupo Whatsapp das Certicações realizadas em Portugal e Angola
+        </p>
+        <a class="btn btn-primary" role="button">
+          Escolho Este
+        </a>
+      </div>
+      <div id="bla" class="col-md-2"></div>
+    </div>
+    <div class="row">
+      <div id="bota" class="col-md-12">
+        <a class="btn btn-primary" href="VIDEO.HTML" role="button">
+          VER VÍDEO
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container00008">
+    <div class="row">
+      <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div id="mo1" class="col-md-6">
+        <h4>
+          <a data-toggle="modal" data-target=".bd-example-modal-xl">
+            FALE CONNOSCO
+          </a>
+        </h4>
+        <div id="mo11" class="modal fade bd-example-modal-xl" tabindex="-1" role="dialog"
+          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+          <div id="mo12" class="modal-dialog modal-xl">
+            <div id="mo13" class="modal-content">
+              <div class="container">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row">
+                  <div class="col-md-12">
+                    <h2 style=" margin-top: 0%;">FALE CONNOSCO</h2>
+                    <!-- <h4 style=" margin-top: 3%; ">FORMULÁRIO</h4> -->
+                    <h6>Campos Obrigatórios</h6>
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="exampleInputEmail1">Empresa</label>
+                    <input id="nameE" type="name" class="form-control" placeholder="Nome da Empresa">
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="exampleInputEmail1">Nome*</label>
+                    <input id="nameC" type="name" class="form-control" placeholder="Nome Completo*">
+                  </div>
+
+                  <div class="col-md-6">
+                    <label for="exampleInputEmail1">E-mail*</label>
+                    <input id="email" type="email" class="form-control" placeholder="ex: seu@mail.com">
+                  </div>
+
+                  <div id="tel" class="col-md-6">
+                    <label for="exampleInputEmail1">Telefone*</label>
+                    <input id="number" type="number" class="form-control" placeholder="00">
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="exampleInputEmail1">País</label>
+                    <input id="pais" type="name" class="form-control">
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="exampleInputEmail1">Cidade</label>
+                    <input id="Provincia" type="name" class="form-control">
+                  </div>
+
+                  <div class="col-md-4">
+                    <label for="exampleInputEmail1">Provincia/Estado</label>
+                    <input id="TConsulta" type="name" class="form-control">
+                  </div>
+
+                  <div class="col-md-12">
+                    <label for="exampleInputEmail1">Mensagem*</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"
+                      placeholder="Escreva alguma coisa..."></textarea>
+                    <small>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod
+                      tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis
+                      nostrud <br></small>
+                    <a class="btn">
+                      Enviar Formulário
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- //////////////////////////////////////////////////////////////////////////////////////////////////////////////////// -->
+      <div id="mo1" class="col-md-6">
+        <h4>
+          <a data-toggle="modal" data-target=".bd-example-modal-x2">
+            TRABALHA CONNOSCO
+          </a>
+        </h4>
+        <div id="mo2" class="modal fade bd-example-modal-x2" style="width: 1365px;" tabindex="-1" role="dialog"
+          aria-labelledby="myExtraLargeModalLabel" aria-hidden="true">
+          <div id="mo22" class="modal-dialog modal-xl" style="width: 1600px;">
+            <div id="mo23" class="modal-content"
+              style=" margin-left: -70px; width: 1300px; background-color: rgba(240, 240, 240, 0); border: solid rgb(0, 0, 255)blue;">
+              <div class="container" style=" border-radius: 20px; background-color: white;">
+                <button style="margin-top: 1%;" type="button" class="close" data-dismiss="modal" aria-label="Fechar">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="row">
+
+                  <div id="bo1" class="row">
+                    <div class="col-md-12">
+                      <h2>TRABALHA CONNOSCO</h2>
+                      <h6>Preencher os campos obrigatórios</h6>
+                    </div>
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Nome</label>
+                    </div>
+                    <div class="col-md-4">
+                      <input id="nameE" type="name" class="form-control" placeholder="Primeiro*">
+                    </div>
+                    <div class="col-md-4">
+                      <input id="nameE" type="name" class="form-control" placeholder="Último*">
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Identificação</label>
+                    </div>
+                    <div class="col-md-4">
+                      <input id="nameE" type="name" class="form-control" placeholder="Bilhete de identidade*">
+                    </div>
+                    <div class="col-md-4">
+                      <input id="nameE" type="name" class="form-control" placeholder="Passaporte">
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">E-mail*</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input id="email" type="email" class="form-control" placeholder="ex: seu@mail.com">
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Qual sua habilitação literária?</label>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Doutoramento
+                        </label>
+                      </div>
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Mestrado
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-2">
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Licenciatura
+                        </label>
+                      </div>
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Bacharelato
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-3">
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Ensino Médio
+                        </label>
+                      </div>
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Ensino de Base
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-12"></div>
+                  </div>
+
+                  <div id="bo2" class="row">
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Para qual posição você está se candidatando?</label>
+                    </div>
+                    <div class="col-md-8">
+                      <select class="form-select form-select-lg" aria-label=".form-select-lg example">
+                        <option selected>Vaga1</option>
+                        <option value="1">Vaga2</option>
+                        <option value="2">Vaga3</option>
+                        <option value="3">Vaga4</option>
+                      </select>
+                    </div>
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Data de início disponivel</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input id="nameE" type="name" class="form-control" placeholder="DD/MM/AAA">
+                    </div>
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Qual sua situação de emprego actual?</label>
+                    </div>
+                    <div class="col-md-4">
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Empregado
+                        </label>
+                      </div>
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Desempregado
+                        </label>
+                      </div>
+                    </div>
+                    <div class="col-md-4">
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Autônomo
+                        </label>
+                      </div>
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Estudante
+                        </label>
+                      </div>
+                    </div>
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Envie o seu currículo fornecendo o URL do mesmo:</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input id="nameE" type="name" class="form-control" placeholder="Cole o link aqui">
+                    </div>
+
+
+                    <div class="col-md-12"></div>
+                  </div>
+
+                  <div id="bo3" class="row">
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Você gostaria de indicar referências?</label>
+                    </div>
+                    <div class="col-md-8">
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Sim
+                        </label>
+                      </div>
+                      <div>
+                        <input class="form-check-input" type="radio">
+                        <label class="form-check-label" for="flexRadioDefault1">
+                          Não
+                        </label>
+                      </div>
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">Nome</label>
+                    </div>
+                    <div class="col-md-4">
+                      <input id="nameE" type="name" class="form-control" placeholder="Primeiro">
+                    </div>
+                    <div class="col-md-4">
+                      <input id="nameE" type="name" class="form-control" placeholder="Último">
+                    </div>
+
+
+                    <div class="col-md-4">
+                      <label for="exampleInputEmail1">E-mail</label>
+                    </div>
+                    <div class="col-md-8">
+                      <input id="email" type="email" class="form-control" placeholder="ex: seu@mail.com">
+                    </div>
+
+                    <div class="col-md-12"></div>
+                  </div>
+
+                  <div class="row" id="bt">
+                    <div class="col-md-12">
+                      <!-- <a id="Geeks" class="btn btn-primary" href="" role="button">Enviar o Formulário de Candidatura de Emprego</a> -->
+                      <button type="button" id="Geek"
+                        onclick="document.querySelector('#Geek').classList.add('alterar')">
+                        <p style="padding: 10px;">
+                          Enviar o Formulário de Candidatura de Emprego
+                        </p>
+                      </button>
+                      <script>
+                        $(document).ready(function () {
+                          $("button").click(function () {
+                            $("#Geek").html("Enviado");
+                          });
+                        });
+                      </script>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--//////////////////RODAPE///////////////////////////-->
+  <footer id="rodape" class="container100">
+
+    <div id="div2" class="row">
+      <div class="col-md-5 col-sm-5 col-xs-12">
+        <p>OCASO GROUP Engenharia e Tecnologia é uma empresa de direito<br>
+          Angolano, fundada em 2015. Composta por unidades de negócios nas<br>
+          áreas de Engenharia, Urbanismo, Arquitectura, Mobilidade, Transportes,<br>
+          Saneamento, Meio Ambiente, Resíduos Sólidos, Energia e Gestão<br>
+          Imobiliária.
+          <br>
+          <br>
+          Saiba mais sobre nossos serviços <a href="">aqui</a>
+        </p>
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-6">
+        <h4 id="h1"><a>HOME</a></h4>
+        <h4><a href="SOBRE-NÓS.HTML">SOBRE NÓS</a></h4>
+        <h4><a href="SERVICO.HTML">SERVIÇOS</a></h4>
+      </div>
+      <div class="col-md-2 col-sm-2 col-xs-6">
+        <h4 id="h1"><a href="NOTICIAS.HTML">NOTÍCIAS</a></h4>
+        <h4><a href="CONTACTO.HTML">CONTATO</a></h4>
+      </div>
+      <div class="col-md-3 col-sm-3 col-xs-12">
+        <p>Inscreva-se em nosso boletim informativo<br>
+          para se atualizar com as últimas<br>
+          notícias, recursos e atualizações da<br>
+          OCASOGROUP.</p>
+        <input id="email" type="email" name="Numero" placeholder="e-mail">
+
+        <p><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook"
+            viewBox="0 0 16 16">
+            <path
+              d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram"
+            viewBox="0 0 16 16">
+            <path
+              d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin"
+            viewBox="0 0 16 16">
+            <path
+              d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+          </svg>
+        </p>
+      </div>
+      <div class="col-md-10 col-sm-10 col-xs-12">
+        <div id="col1">
+          <h5><a>Copyright © 2022 Grupo Ocaso</a></h5>
+        </div>
+        <div id="col2">
+          <h5><a href="PÓLITICADEPRIVACIDADE.HTML">Política e Privacidade</a></h5>
+        </div>
+        <div id="col3">
+          <h5><a href="TERMOS&CONDIÇÕES.HTML">Termos e Condições</a></h5>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+
+  <script src="Public/JS/swiper-bundle.min.js"></script>
+  <script src="Public/JS/script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,588 @@
+
+
+
+
+
+.container09 .row #vaco{
+   border: ;
+   height: 410px;
+}
+.container09 .row .col-md-1{
+   border:;
+   height: ;
+   margin-left:
+}
+.container09 #button a{
+   margin-top:;
+   border-radius: 35px;
+   height:40px;
+   font-size: 30px;
+   text-align:;
+
+   font-weight:bold ;
+   color: #C1A981;
+   width: 40px;
+   border: solid 2px #C1A981;
+}
+/*/////////////////TODOS///////////////*/
+#mainSlider .row #hello16{
+   margin-left: 0%;
+}
+#mainSlider .row #hello17, #hello18{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello16, #hello17, #hello18{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello13{
+   margin-left: 0%;
+}
+#mainSlider .row #hello14, #hello15{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello13, #hello14, #hello15{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello10{
+   margin-left: 0%;
+}
+#mainSlider .row #hello11, #hello12{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello10, #hello11, #hello12{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello7{
+   margin-left: 0%;
+}
+#mainSlider .row #hello8, #hello9{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello7, #hello8, #hello9{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello4{
+   margin-left: 0%;
+}
+#mainSlider .row #hello5, #hello6{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello4, #hello5, #hello6{
+   display: inline-block;
+}
+/*////////////////////////////////////////*/
+#mainSlider .row #hello1{
+   margin-left: 0.0%;
+}
+#mainSlider .row #hello2, #hello3{
+   margin-left: -0.4%;
+}
+#mainSlider .row #hello1, #hello2, #hello3{
+   display: inline-block;
+}
+/*/////////////////TODOS///////////////*/
+/*////////////////LEGENDA/////////////*/
+.container30 .row, .container09 .row{
+   width: 100%;
+   height: auto;
+   margin-left: 0%;
+}
+/*/////////hello/////////1///*/
+#hello1{
+   background: url(Public/CSS/IMG/img4.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+}
+#hello2{
+   background: url(Public/CSS/IMG/lampada.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+#hello3{
+   background: url(Public/CSS/IMG/mp.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+/*/////////////2///////////////*/
+#hello4{
+   background: url(Public/CSS/IMG/pretoleo.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+}
+#hello5{
+   background: url(Public/CSS/IMG/cadeira.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+#hello6{
+   background: url(Public/CSS/IMG/mp.png);    
+}
+/*///////////////3/////////////*/
+#hello7{
+   background: url(Public/CSS/IMG/img3.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+#hello8{
+   background: url(Public/CSS/IMG/slider2.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+}
+#hello9{
+   background: url(Public/CSS/IMG/2mpc.png); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;   
+}
+/*//////////////4//////////////*/
+#hello10{
+   background: url(Public/CSS/IMG/maefilho.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;    
+}
+#hello11{
+   background: url(Public/CSS/IMG/mp.png);    
+}
+#hello12{
+   background: url(Public/CSS/IMG/mp.png);    
+}
+/*////////////5///////////////////*/
+#hello13{
+   background: url(Public/CSS/IMG/nerd.png); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;   
+}
+#hello14{
+   background: url(Public/CSS/IMG/mp.png);    
+}
+#hello15{
+   background: url(Public/CSS/IMG/mp.png);    
+}
+/*//////////6///////////////////*/
+#hello16{
+   background: url(Public/CSS/IMG/mf.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+#hello17{
+   background: url(Public/CSS/IMG/amazon.png); 
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;   
+}
+#hello18{
+   background: url(Public/CSS/IMG/mp.png);    
+}
+.container30 .row .col-md-4{ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   width:100%;
+}
+.container30 .row .col-md-4 figure{
+    background: rgba(0, 0, 0, 0.6);
+    width: 107.3%;
+    height: 400px;
+    overflow:hidden;
+    float:left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -3.7%;
+    margin-top: 0%;
+}
+.container30 .row .col-md-4 figcaption a{
+   margin-top: 5%;
+   color: #C1A981;
+   border: solid 1px #C1A981;
+   margin-left: 12%;
+   border-radius: 15px;
+   background-color: rgba(240, 248, 255, 0);
+}
+.container30 .row .col-md-4 figcaption h3{
+   padding: 5%;
+   margin-left: 10%;
+   color: white;
+   width: 300px;
+}
+.container30 .row .col-md-4 figcaption p{
+   padding: 2%;
+   color: white;
+   margin-left: 10%;
+}
+.container30 .row .col-md-4 figcaption{
+    position: relative;
+    top: 400px;
+    background: rgb(100, 100, 100);
+    -webkit-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+}
+.container30 .row .col-md-4 figure #p{
+   margin-left: 10%;
+   color: white;
+}
+.container30 .row .col-md-4 figure #h2{
+   width: 300px;
+   margin-left: 10%;
+   color: white;
+   margin-top: 60%;
+}
+.container30 .row .col-md-4 figure:hover figcaption{
+   top:-399px;
+}
+/*////////////////LEGENDA/////////////*/
+ 
+/*.container10 .row .col-md-4{ 
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center;
+   height: 400px;
+   width:100%;
+}
+.container10 .row .col-md-4 figure{
+    background: rgba(0, 0, 0, 0.6);
+    width: 107.3%;
+    height: 400px;
+    overflow:hidden;
+    float:left;
+    text-align: left;
+    font-size: 15px;
+    font-weight: bold;
+    margin-left: -3.7%;
+    margin-top: 0%;
+}
+.container10 .row .col-md-4 figcaption a{
+   margin-top: 5%;
+   color: #C1A981;
+   border: solid 1px #C1A981;
+   margin-left: 12%;
+   border-radius: 15px;
+   background-color: rgba(240, 248, 255, 0);
+}
+.container10 .row .col-md-4 figcaption h3{
+   padding: 5%;
+   margin-left: 10%;
+   color: white;
+   width: 300px;
+}
+.container10 .row .col-md-4 figcaption p{
+   padding: 2%;
+   color: white;
+   margin-left: 10%;
+}
+.container10 .row .col-md-4 figcaption{
+    position: relative;
+    top: 400px;
+    background: rgb(100, 100, 100);
+    -webkit-transition: top 1s ease;
+    -ms-transition: top 1s ease;
+    -moz-transition: top 1s ease;
+    -o-transition: top 1s ease;
+}
+.container10 .row .col-md-4 figure #p{
+   margin-left: 10%;
+   color: white;
+}
+.container10 .row .col-md-4 figure #h2{
+   width: 300px;
+   margin-left: 10%;
+   color: white;
+   margin-top: 60%;
+}
+.container10 .row .col-md-4 figure:hover figcaption{
+   top:395px;
+}
+#hello1{
+   background: url(Public/CSS/IMG/img4.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+}
+#hello2{
+   background: url(Public/CSS/IMG/lampada.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+#hello3{
+   background: url(Public/CSS/IMG/mp.png);   
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover; 
+}
+/*/////////////2///////////////*/
+#hello4{
+   background: url(Public/CSS/IMG/pretoleo.png);  
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;  
+}
+#hello5{
+   background: url(Public/CSS/IMG/cadeira.png);
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+}
+#hello6{
+   background: url(Public/CSS/IMG/mp.png);    
+}
+body{
+    background-color: aqua;
+}
+.row{
+   width: 100%;
+   height: auto;
+   margin-left: 0%;
+}
+/*//////////////////////////////////////*/
+#carouselExampleFade{
+   background-color:white;
+   position: relative;
+   height: 400px;
+ }
+ .btn{
+   border: solid 1px #C1AA81;
+   border-radius: 30px;
+   font-size: 12px;
+   color: #C1AA81;
+   background-color: rgba(255, 255, 255, 0);
+ }
+ #cc{
+   margin-top: 30%;
+   border: solid 2px pink;
+   height: 40px;
+ }
+.carousel-control-next h4, .carousel-control-prev h4{
+   color: #C1AA81;
+ }
+.carousel-control-next, .carousel-control-prev{
+   border: solid 2px #C1AA81;
+   border-radius: 50px;
+   width: 40px;
+   height: 40px;
+ }
+ #hello1, #hello2, #hello3, #hello4, #hello5, #hello6{
+   display: inline-block;
+ }
+#hello1{
+   margin-left:0%;
+}
+ #hello2{
+   margin-left:-0.3%;
+}
+ #hello3{
+   margin-left:-0.4%;
+}
+#hello4{
+   margin-left:0%;
+}
+ #hello5{
+   margin-left:-0.3%;
+}
+ #hello6{
+   margin-left:-0.4%;
+}
+#tt1{
+   height: 400px;
+}
+#kk .col-md-1, .col-md-10{
+   background-color: rgb(255, 255, 255);
+}
+#tt{
+   background-color: rgb(255, 255, 255);
+   height: 60px;
+}
+#tt .carousel-control-prev, #tt .carousel-control-next{
+   margin-top: 7%;
+}
+
+//////////////////////////////////////*/
+/*
+ #carouselExampleFade{
+   background-color:white;
+ }
+ .container10 .row{
+   width: 100%;
+   height: auto;
+   margin-left: 0%;
+ }
+ #s2 h3{
+   margin-top: 1%;
+   margin-left: 0%;
+ }
+  #s2{
+   border-top: solid 2px rgb(68, 68, 68);
+   margin-top: 2%;
+ }
+ #s3 h6{
+   padding-top: 2%;
+ }
+  #s3{
+   border-top: solid 2px rgb(68, 68, 68);
+   margin-top: 2%;
+ }
+ .btn{
+   border: solid 1px #C1AA81;
+   border-radius: 30px;
+   width: 90px;
+   font-size: 12px;
+   color: #C1AA81;
+   background-color: rgba(255, 255, 255, 0);
+ }
+ #cc{
+   margin-top: 0.5%;
+   height: 40px;
+ }
+ .carousel-control-next h4, .carousel-control-prev h4{
+   color: #C1AA81;
+ }
+ .carousel-control-next, .carousel-control-prev{
+   border: solid 2px #C1AA81;
+   border-radius: 50px;
+   width: 40px;
+   height: 40px;
+ }
+ #s4 img{
+   width: 100%;
+   height: 105px;
+ }
+
+ #carouselExampleFade .carousel-control-prev, #carouselExampleFade .carousel-control-next{
+   height: 30px;
+   width: 30px;
+   font-size: 10px;
+   border: solid 1px #C1A981;
+   border-radius: 900px;
+ }
+ .carouselExampleFade #c1{
+   color: red;
+   background-color: red
+ }
+ #s2{
+   margin-top: 2%;
+   border-top: ;
+   width: 800px;
+   border: solid 2px red;
+   justify-items: center;
+   margin-left: 10%;
+ }
+ #s3 a{
+   border: solid 1px #C1AA81;
+   color: #C1AA81;
+   border-radius: 10px;
+   margin-left: 990px;
+   margin-top: -50px;
+ }
+ #s4{
+   width:;
+   border: solid 2px blue; 
+   
+ }
+ #cc .carousel-control-next h4, #cc .carousel-control-prev h4{
+  color: #C1A981;
+  font-size: 20px;
+  text-align: center;
+ }
+ #cc .carousel-control-next{
+   margin-top: 10px;
+   border: solid 2px blue;
+   margin-right:;
+ }
+ #cc .carousel-control-prev{
+   margin-top: 10px;
+   border: solid 2px yellow;
+   margin-left: ;
+ }
+ #cc{
+   border: solid 2px red;
+   height: 50px;
+ }
+*/
+
+/*////////////////LEGENDA/////////////
+.container .row{
+    width: 100%;
+    height: auto;
+    margin-left: 0%;
+}
+#hello{ 
+    width:100%;
+ }
+ #hello figure{
+     border: solid 2px rebeccapurple;
+     background: rgba(239, 239, 239, 0.6);
+     width: 100%;
+     height: 400px;
+     overflow:hidden;
+     margin-left: ;
+     float:left;
+     text-align: left;
+     font-size: 15px;
+     font-family: 'Fredericka the Great', cursive;
+     font-weight: bold;
+     display: block;
+     padding:0;
+     margin: 15px;
+ }
+ #hello figcaption a:hover{
+    background: white;
+ }
+ #hello figcaption a{
+    color: #C1A981;
+    border: solid 1px #C1A981;
+    margin-left: 12%;
+    border-radius: 15px;
+    background-color: rgba(240, 248, 255, 0);
+ }
+ #hello figcaption h3{
+    padding: 5%;
+    margin-left: 10%;
+ }
+ #hello figcaption p{
+    padding: 2%;
+    margin-left: 10%;
+ }
+ #hello figcaption{
+     position: relative;
+     top: 400px;
+     background: rgb(100, 100, 100);
+     -webkit-transition: top 1s ease;
+     -ms-transition: top 1s ease;
+     -moz-transition: top 1s ease;
+     -o-transition: top 1s ease;
+ }
+ #hello figure #p{
+    margin-left: 10%;
+    color: red;
+    margin-top:;
+ }
+ #hello figure #h2{
+    margin-left: 10%;
+    color: red;
+    margin-top: 48%;
+ }
+ #hello figure:hover figcaption{
+    top:-380px;
+}
+////////////////LEGENDA/////////////
+ /*
+ #hello figure:hover figcaption{
+         top:-515px;
+     }*/

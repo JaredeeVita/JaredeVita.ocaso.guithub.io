@@ -1,8 +1,8 @@
 
 @font-face{
   font-family:'fotos';
-  /* src: url("../../Config/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf"); */
-  src: url("../../Config/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf");
+  /* src: url("Config/Shadows_Into_Light/ShadowsIntoLight-Regular.ttf"); */
+  src: url("Config/Avenir/Avenir\ Next\ LT\ Pro\ Regular.otf");
 }
 
 *{
